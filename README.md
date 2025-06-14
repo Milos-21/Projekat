@@ -16,3 +16,10 @@ Lider projekta
 
 # Uputstvo za pokretanje:
 Za ispravan rad aplikacije, neophodno je da folderi icon i Images budu smješteni na Desktop-u. Glavni Python fajl treba pokrenuti koristeći Spyder razvojno okruženje.
+
+# Napomena:
+Da bi aplikacija ispravno radila, potrebno je instalirati sve potrebne biblioteke. One su već navedene u fajlu requirements.txt.
+Instalaciju možete izvršiti sledećom komandom u terminalu:
+pip install -r requirements.txt
+Ukoliko aplikacija ne učitava slike (npr. ikone ili pozadinske slike), preporučuje se da se provjeri ispravnost putanja do foldera(linije u kodu: 108, 188, 191, 209, 213, 220, 227, 228).
+Ukoliko se pri učitavanju slike i dalje javlja greška, preporučuje se resetovanje kernela ili ponovno pokretanje razvojnog okruženja.
