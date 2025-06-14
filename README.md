@@ -13,3 +13,6 @@ Lider projekta
 1. Miloš Bojanić
 2. Pavle Dubljanić
 3. Nikola Gojković
+
+# Uputstvo za pokretanje:
+Za ispravan rad aplikacije, neophodno je da folderi icon i Images budu smešteni na Desktop-u. Glavni Python fajl treba pokrenuti koristeći Spyder razvojno okruženje.
